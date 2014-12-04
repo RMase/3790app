@@ -1,0 +1,14 @@
+<!--
+  This template loads for the 'tab.friend-detail' state (app.js)
+  'friend' is a $scope variable created in the FriendsCtrl controller (controllers.js)
+  The FriendsCtrl pulls data from the Friends service (service.js)
+  The Friends service returns an array of friend data
+-->
+<ion-view title="Recipe Details">
+  <ion-content has-header="true" padding="true">
+
+      <li ng-repeat="friends1 in friends1" class="item"><p class="ion-android-checkmark">  {{friends1.fullCarName}}</p></li>
+
+  </ion-content>
+</ion-view>
+
